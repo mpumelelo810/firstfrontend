@@ -1,0 +1,97 @@
+<html>
+    <head>
+
+    </head>
+    <title>
+      
+    </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <body>
+      <div class="container">
+    <header>
+      
+   <!-- Right elements -->
+            </header>
+               <!-- Navbar-->
+<nav >
+  <div class="container-fluid justify-content-between">
+    <!-- Left elements -->
+    <div class="d-flex">
+      <!-- Brand -->
+  
+      <!-- Search form -->
+      <form class="input-group w-auto my-auto d-none d-sm-flex">
+        <input
+          autocomplete="off"
+          type="search"
+          class="form-control rounded"
+          placeholder="Search"
+          style="min-width: 125px;"
+        />
+        
+      </form>
+    </div>
+      
+        
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuLink"
+        >
+
+        </ul>
+      </li>
+    </ul>
+    </header>
+  </div>
+    <main>
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="#" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+
+</div>
+<script>
+$(documennt).getElementById('generate').onclick=function()
+{
+ $ (valeus) = ["dog","cats","parol","rabbit"];
+ var select = document.createElement("select");
+ for(const val of valeus)
+ {
+    var option = document.createElement("option");
+    option.valeus = val;
+    option.text=val.charAt(0).toUpperCase()+val.slice(1);
+    select.appendChild(option);
+
+ }
+ var lable = document.createElement("label");
+ label.innerHTML = "choose yo pets";
+ label.htmlFor = "pets";
+ document.getElementById("container").appendChild("label").appendChild("select");
+
+
+
+}
+</script>
+</form>
+    </main>
+    <footer>
+
+    </footer>
+</html>
